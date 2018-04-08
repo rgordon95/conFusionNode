@@ -6,7 +6,7 @@ function solveRect(l,b) {
 			if (err) {
 				console.log("ERROR:" + err.message);
 			} else {
-				console.log("The area of the rectangle of dimensions 1 = " + 1 + " and b = " + b + " is " + rectangle.area());
+				console.log("The area of the rectangle of dimensions 1 = " + l + " and b = " + b + " is " + rectangle.area());
 				console.log("The perimeter of the rectangle of dimensions l = "
 							 + l + " and b = " + b + " is " + rectangle.perimeter());
 			}
